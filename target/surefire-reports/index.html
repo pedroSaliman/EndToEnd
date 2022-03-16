@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-store" class="navigator-link">
+              <span class="suite-name border-passed">store</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-store" class="navigator-link ">
+                    <span>E:\seleniumprojects\EndToEnd\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-store" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-store" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-store" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-store" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-store" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-store" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-store" class="hide-methods passed suite-store"> (hide)</a> <!-- hide-methods passed suite-store -->
+                      <a href="#" panel-name="suite-store" class="show-methods passed suite-store"> (show)</a> <!-- show-methods passed suite-store -->
+                    </span>
+                    <div class="method-list-content passed suite-store">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.CartCase" class="method navigator-link" hash-for-method="Adress">Adress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.ContactCase" class="method navigator-link" hash-for-method="clicktocontact">clicktocontact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.CartCase" class="method navigator-link" hash-for-method="confirmorder">confirmorder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.CartCase" class="method navigator-link" hash-for-method="continueshopping">continueshopping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.MyCreateTest" class="method navigator-link" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.MyCreateTest" class="method navigator-link" hash-for-method="createprocess">createprocess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.LoginCase" class="method navigator-link" hash-for-method="login(w@gmail.com, 123456789)">login(w@gmail.com, 123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.CartCase" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.LoginCase" class="method navigator-link" hash-for-method="login(putin@gmail.com, 123456789)">login(putin@gmail.com, 123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.LoginCase" class="method navigator-link" hash-for-method="login(lka@gmail.com, 123456789)">login(lka@gmail.com, 123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.CartCase" class="method navigator-link" hash-for-method="payment">payment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.PageProductCase" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.SearchCase" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.CartCase" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.CartCase" class="method navigator-link" hash-for-method="shipping">shipping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.MyCreateTest" class="method navigator-link" hash-for-method="sign">sign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-store" title="tests.LoginCase" class="method navigator-link" hash-for-method="sign">sign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-store -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-store" class="panel store">
+          <div class="suite-store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ContactCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicktocontact">
+                  </a> <!-- clicktocontact -->
+                  <span class="method-name">clicktocontact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-store-class-passed -->
+          <div class="suite-store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-store-class-passed -->
+          <div class="suite-store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Adress">
+                  </a> <!-- Adress -->
+                  <span class="method-name">Adress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmorder">
+                  </a> <!-- confirmorder -->
+                  <span class="method-name">confirmorder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continueshopping">
+                  </a> <!-- continueshopping -->
+                  <span class="method-name">continueshopping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="payment">
+                  </a> <!-- payment -->
+                  <span class="method-name">payment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shipping">
+                  </a> <!-- shipping -->
+                  <span class="method-name">shipping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-store-class-passed -->
+          <div class="suite-store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(w@gmail.com, 123456789)">
+                  </a> <!-- login(w@gmail.com, 123456789) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(w@gmail.com, 123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(putin@gmail.com, 123456789)">
+                  </a> <!-- login(putin@gmail.com, 123456789) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(putin@gmail.com, 123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(lka@gmail.com, 123456789)">
+                  </a> <!-- login(lka@gmail.com, 123456789) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(lka@gmail.com, 123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign">
+                  </a> <!-- sign -->
+                  <span class="method-name">sign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-store-class-passed -->
+          <div class="suite-store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PageProductCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-store-class-passed -->
+          <div class="suite-store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MyCreateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createprocess">
+                  </a> <!-- createprocess -->
+                  <span class="method-name">createprocess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign">
+                  </a> <!-- sign -->
+                  <span class="method-name">sign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-store-class-passed -->
+        </div> <!-- panel store -->
+        <div panel-name="test-xml-store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\seleniumprojects\EndToEnd\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;store&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listners.Listner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.MyCreateTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginCase&quot;/&gt;
+      &lt;class name=&quot;tests.SearchCase&quot;/&gt;
+      &lt;class name=&quot;tests.PageProductCase&quot;/&gt;
+      &lt;class name=&quot;tests.ContactCase&quot;/&gt;
+      &lt;class name=&quot;tests.CartCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- store --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for store</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for store</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for store</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_store');
+function tableData_store() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'tests.LoginCase')
+data.setCell(0, 3, 10709);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createprocess')
+data.setCell(1, 2, 'tests.MyCreateTest')
+data.setCell(1, 3, 10508);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'search')
+data.setCell(2, 2, 'tests.PageProductCase')
+data.setCell(2, 3, 10306);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'tests.LoginCase')
+data.setCell(3, 3, 9065);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'tests.LoginCase')
+data.setCell(4, 3, 7599);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'sign')
+data.setCell(5, 2, 'tests.MyCreateTest')
+data.setCell(5, 3, 6899);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'search')
+data.setCell(6, 2, 'tests.CartCase')
+data.setCell(6, 3, 6633);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Adress')
+data.setCell(7, 2, 'tests.CartCase')
+data.setCell(7, 3, 5205);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'login')
+data.setCell(8, 2, 'tests.CartCase')
+data.setCell(8, 3, 5175);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'shipping')
+data.setCell(9, 2, 'tests.CartCase')
+data.setCell(9, 3, 4944);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'payment')
+data.setCell(10, 2, 'tests.CartCase')
+data.setCell(10, 3, 4865);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'sign')
+data.setCell(11, 2, 'tests.LoginCase')
+data.setCell(11, 3, 4418);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'confirmorder')
+data.setCell(12, 2, 'tests.CartCase')
+data.setCell(12, 3, 4111);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'search')
+data.setCell(13, 2, 'tests.SearchCase')
+data.setCell(13, 3, 3757);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clicktocontact')
+data.setCell(14, 2, 'tests.ContactCase')
+data.setCell(14, 3, 3569);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'create')
+data.setCell(15, 2, 'tests.MyCreateTest')
+data.setCell(15, 3, 2735);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'continueshopping')
+data.setCell(16, 2, 'tests.CartCase')
+data.setCell(16, 3, 2035);
+window.suiteTableData['store']= { tableData: data, tableDiv: 'times-div-store'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-store">
+              </div> <!-- times-div-store -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for store</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ContactCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.SearchCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CartCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.LoginCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.PageProductCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">close</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-store" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MyCreateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">sign</span>
+                <span class="method-start">82469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=sign status=SUCCESS method=MyCreateTest.sign()[pri:0, instance:tests.MyCreateTest@5...)</span>
+                <span class="method-start">89373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">89377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=create status=SUCCESS method=MyCreateTest.create()[pri:0, instance:tests.MyCreateTe...)</span>
+                <span class="method-start">92112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createprocess</span>
+                <span class="method-start">92114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=createprocess status=SUCCESS method=MyCreateTest.createprocess()[pri:0, instance:te...)</span>
+                <span class="method-start">102623 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sign</span>
+                <span class="method-start">102626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=sign status=SUCCESS method=LoginCase.sign()[pri:0, instance:tests.LoginCase@38089a5...)</span>
+                <span class="method-start">107045 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login(w@gmail.com, 123456789)</span>
+                <span class="method-start">108498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=login status=SUCCESS method=LoginCase.login(java.lang.String,java.lang.String)[pri:...)</span>
+                <span class="method-start">117565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login(putin@gmail.com, 123456789)</span>
+                <span class="method-start">117565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=login status=SUCCESS method=LoginCase.login(java.lang.String,java.lang.String)[pri:...)</span>
+                <span class="method-start">128275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login(lka@gmail.com, 123456789)</span>
+                <span class="method-start">128275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=login status=SUCCESS method=LoginCase.login(java.lang.String,java.lang.String)[pri:...)</span>
+                <span class="method-start">135875 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">135877 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PageProductCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">139635 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=search status=SUCCESS method=SearchCase.search()[pri:0, instance:tests.SearchCase@3...)</span>
+                <span class="method-start">139635 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PageProductCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=search status=SUCCESS method=PageProductCase.search()[pri:0, instance:tests.PagePro...)</span>
+                <span class="method-start">149942 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clicktocontact</span>
+                <span class="method-start">149943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=clicktocontact status=SUCCESS method=ContactCase.clicktocontact()[pri:0, instance:t...)</span>
+                <span class="method-start">153512 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">153513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=search status=SUCCESS method=CartCase.search()[pri:0, instance:tests.CartCase@13ad5...)</span>
+                <span class="method-start">160147 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">continueshopping</span>
+                <span class="method-start">160147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=continueshopping status=SUCCESS method=CartCase.continueshopping()[pri:0, instance:...)</span>
+                <span class="method-start">162182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">162183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=login status=SUCCESS method=CartCase.login()[pri:0, instance:tests.CartCase@13ad5cd...)</span>
+                <span class="method-start">167359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Adress</span>
+                <span class="method-start">167360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=Adress status=SUCCESS method=CartCase.Adress()[pri:0, instance:tests.CartCase@13ad5...)</span>
+                <span class="method-start">172565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">shipping</span>
+                <span class="method-start">172566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=shipping status=SUCCESS method=CartCase.shipping()[pri:0, instance:tests.CartCase@1...)</span>
+                <span class="method-start">177510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">payment</span>
+                <span class="method-start">177511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=payment status=SUCCESS method=CartCase.payment()[pri:0, instance:tests.CartCase@13a...)</span>
+                <span class="method-start">182376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">confirmorder</span>
+                <span class="method-start">182378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screen([TestResult name=confirmorder status=SUCCESS method=CartCase.confirmorder()[pri:0, instance:tests.Ca...)</span>
+                <span class="method-start">186489 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MyCreateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">close</span>
+                <span class="method-start">188433 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

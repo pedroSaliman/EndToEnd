@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="27" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-16T16:47:32 EET" name="store" finished-at="2022-03-16T16:50:39 EET" duration-ms="186492">
+    <groups>
+    </groups>
+    <test started-at="2022-03-16T16:47:32 EET" name="Test" finished-at="2022-03-16T16:50:39 EET" duration-ms="186492">
+      <class name="tests.PageProductCase">
+        <test-method signature="search()[pri:0, instance:tests.PageProductCase@66c92293]" started-at="2022-03-16T16:49:52 EET" name="search" finished-at="2022-03-16T16:50:02 EET" duration-ms="10306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.PageProductCase@66c92293]" started-at="2022-03-16T16:50:02 EET" name="screen" finished-at="2022-03-16T16:50:02 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=PageProductCase.search()[pri:0, instance:tests.PageProductCase@66c92293] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+      </class> <!-- tests.PageProductCase -->
+      <class name="tests.CartCase">
+        <test-method signature="search()[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:06 EET" name="search" finished-at="2022-03-16T16:50:12 EET" duration-ms="6633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:12 EET" name="screen" finished-at="2022-03-16T16:50:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=CartCase.search()[pri:0, instance:tests.CartCase@13ad5cd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="continueshopping()[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:12 EET" name="continueshopping" finished-at="2022-03-16T16:50:14 EET" depends-on-methods="tests.CartCase.search" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueshopping -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:14 EET" name="screen" finished-at="2022-03-16T16:50:14 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=continueshopping status=SUCCESS method=CartCase.continueshopping()[pri:0, instance:tests.CartCase@13ad5cd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="login()[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:14 EET" name="login" finished-at="2022-03-16T16:50:20 EET" depends-on-methods="tests.CartCase.continueshopping" duration-ms="5175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:20 EET" name="screen" finished-at="2022-03-16T16:50:20 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=CartCase.login()[pri:0, instance:tests.CartCase@13ad5cd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="Adress()[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:20 EET" name="Adress" finished-at="2022-03-16T16:50:25 EET" depends-on-methods="tests.CartCase.login" duration-ms="5205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adress -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:25 EET" name="screen" finished-at="2022-03-16T16:50:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Adress status=SUCCESS method=CartCase.Adress()[pri:0, instance:tests.CartCase@13ad5cd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="shipping()[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:25 EET" name="shipping" finished-at="2022-03-16T16:50:30 EET" depends-on-methods="tests.CartCase.Adress" duration-ms="4944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shipping -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:30 EET" name="screen" finished-at="2022-03-16T16:50:30 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shipping status=SUCCESS method=CartCase.shipping()[pri:0, instance:tests.CartCase@13ad5cd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="payment()[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:30 EET" name="payment" finished-at="2022-03-16T16:50:35 EET" depends-on-methods="tests.CartCase.shipping" duration-ms="4865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:35 EET" name="screen" finished-at="2022-03-16T16:50:35 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=payment status=SUCCESS method=CartCase.payment()[pri:0, instance:tests.CartCase@13ad5cd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="confirmorder()[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:35 EET" name="confirmorder" finished-at="2022-03-16T16:50:39 EET" depends-on-methods="tests.CartCase.payment" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmorder -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.CartCase@13ad5cd3]" started-at="2022-03-16T16:50:39 EET" name="screen" finished-at="2022-03-16T16:50:39 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmorder status=SUCCESS method=CartCase.confirmorder()[pri:0, instance:tests.CartCase@13ad5cd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+      </class> <!-- tests.CartCase -->
+      <class name="tests.MyCreateTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.MyCreateTest@5d066c7d]" started-at="2022-03-16T16:47:32 EET" name="setup" finished-at="2022-03-16T16:48:55 EET" duration-ms="82421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sign()[pri:0, instance:tests.MyCreateTest@5d066c7d]" started-at="2022-03-16T16:48:55 EET" name="sign" finished-at="2022-03-16T16:49:02 EET" duration-ms="6899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.MyCreateTest@5d066c7d]" started-at="2022-03-16T16:49:02 EET" name="screen" finished-at="2022-03-16T16:49:02 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sign status=SUCCESS method=MyCreateTest.sign()[pri:0, instance:tests.MyCreateTest@5d066c7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="create()[pri:0, instance:tests.MyCreateTest@5d066c7d]" started-at="2022-03-16T16:49:02 EET" name="create" finished-at="2022-03-16T16:49:04 EET" depends-on-methods="tests.MyCreateTest.sign" duration-ms="2735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.MyCreateTest@5d066c7d]" started-at="2022-03-16T16:49:04 EET" name="screen" finished-at="2022-03-16T16:49:04 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create status=SUCCESS method=MyCreateTest.create()[pri:0, instance:tests.MyCreateTest@5d066c7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="createprocess()[pri:0, instance:tests.MyCreateTest@5d066c7d]" started-at="2022-03-16T16:49:04 EET" name="createprocess" finished-at="2022-03-16T16:49:15 EET" depends-on-methods="tests.MyCreateTest.create" duration-ms="10508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createprocess -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.MyCreateTest@5d066c7d]" started-at="2022-03-16T16:49:15 EET" name="screen" finished-at="2022-03-16T16:49:15 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createprocess status=SUCCESS method=MyCreateTest.createprocess()[pri:0, instance:tests.MyCreateTest@5d066c7d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.MyCreateTest@5d066c7d]" started-at="2022-03-16T16:50:41 EET" name="close" finished-at="2022-03-16T16:50:42 EET" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.MyCreateTest -->
+      <class name="tests.SearchCase">
+        <test-method signature="search()[pri:0, instance:tests.SearchCase@30e868be]" started-at="2022-03-16T16:49:48 EET" name="search" finished-at="2022-03-16T16:49:52 EET" duration-ms="3757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.SearchCase@30e868be]" started-at="2022-03-16T16:49:52 EET" name="screen" finished-at="2022-03-16T16:49:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=SearchCase.search()[pri:0, instance:tests.SearchCase@30e868be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+      </class> <!-- tests.SearchCase -->
+      <class name="tests.LoginCase">
+        <test-method signature="sign()[pri:0, instance:tests.LoginCase@38089a5a]" started-at="2022-03-16T16:49:15 EET" name="sign" finished-at="2022-03-16T16:49:19 EET" duration-ms="4418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.LoginCase@38089a5a]" started-at="2022-03-16T16:49:19 EET" name="screen" finished-at="2022-03-16T16:49:19 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sign status=SUCCESS method=LoginCase.sign()[pri:0, instance:tests.LoginCase@38089a5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginCase@38089a5a]" started-at="2022-03-16T16:49:21 EET" name="login" data-provider="Excel" finished-at="2022-03-16T16:49:30 EET" depends-on-methods="tests.LoginCase.sign" duration-ms="9065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[w@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.LoginCase@38089a5a]" started-at="2022-03-16T16:49:30 EET" name="screen" finished-at="2022-03-16T16:49:30 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginCase.login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginCase@38089a5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginCase@38089a5a]" started-at="2022-03-16T16:49:30 EET" name="login" data-provider="Excel" finished-at="2022-03-16T16:49:40 EET" depends-on-methods="tests.LoginCase.sign" duration-ms="10709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[putin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.LoginCase@38089a5a]" started-at="2022-03-16T16:49:40 EET" name="screen" finished-at="2022-03-16T16:49:40 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginCase.login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginCase@38089a5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginCase@38089a5a]" started-at="2022-03-16T16:49:40 EET" name="login" data-provider="Excel" finished-at="2022-03-16T16:49:48 EET" depends-on-methods="tests.LoginCase.sign" duration-ms="7599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lka@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.LoginCase@38089a5a]" started-at="2022-03-16T16:49:48 EET" name="screen" finished-at="2022-03-16T16:49:48 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginCase.login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginCase@38089a5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+      </class> <!-- tests.LoginCase -->
+      <class name="tests.ContactCase">
+        <test-method signature="clicktocontact()[pri:0, instance:tests.ContactCase@3cdf2c61]" started-at="2022-03-16T16:50:02 EET" name="clicktocontact" finished-at="2022-03-16T16:50:06 EET" duration-ms="3569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicktocontact -->
+        <test-method is-config="true" signature="screen(org.testng.ITestResult)[pri:0, instance:tests.ContactCase@3cdf2c61]" started-at="2022-03-16T16:50:06 EET" name="screen" finished-at="2022-03-16T16:50:06 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clicktocontact status=SUCCESS method=ContactCase.clicktocontact()[pri:0, instance:tests.ContactCase@3cdf2c61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+      </class> <!-- tests.ContactCase -->
+    </test> <!-- Test -->
+  </suite> <!-- store -->
+</testng-results>

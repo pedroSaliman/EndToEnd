@@ -1,0 +1,16 @@
+pages\LoginPage.class
+pages\CartPage.class
+pages\ConfirmPayPage.class
+pages\HomePage.class
+pages\MyCreatePage.class
+actions\Action.class
+pages\Base.class
+pages\ContactUsPage.class
+pages\MyAddressPage.class
+pages\PaymentPage.class
+pages\EndPayPage.class
+pages\EndOfContactPage.class
+pages\SearchPage.class
+pages\PageOfProduct.class
+pages\SippingPage.class
+pages\MyAccountPage.class
