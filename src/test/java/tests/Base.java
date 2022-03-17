@@ -26,7 +26,7 @@ public class Base {
     Action act;
     public static Properties prop;
   public static   WebDriver driver;
-    @BeforeTest
+    @BeforeSuite
     public void setup() {
         //ExtentReport
 //        ExtentSparkReporter reporter = new ExtentSparkReporter("E:\\seleniumprojects\\EndToEnd\\reporter\\index.html");
